@@ -34,9 +34,9 @@ const TrackCard = ({ track }) => {
   const [incrementTrackViews] = useMutation(INCREMENT_TRACK_VIEWS, {
     variables: { incrementTrackViewsId: id },
     // to observe what the mutation response returns
-    onCompleted: (data) => {
+    /* onCompleted: (data) => {
       console.log(data)
-    },
+    }, */
   })
 
   return (
