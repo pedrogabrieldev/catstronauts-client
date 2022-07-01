@@ -7,6 +7,8 @@ import Pages from './pages'
 const client = new ApolloClient({
   uri: 'https://catstronauts-server-w89yx8.herokuapp.com/',
   cache: new InMemoryCache(),
+  name: 'web',
+  version: '1.0',
 })
 
 ReactDOM.render(
