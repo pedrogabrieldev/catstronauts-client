@@ -6,7 +6,7 @@ import Pages from './pages'
 
 const client = new ApolloClient({
   uri:
-    process.env === 'production'
+    process.env.NODE_ENV === 'production'
       ? 'https://catstronauts-server-w89yx8.herokuapp.com/'
       : 'http://localhost:4000/',
   cache: new InMemoryCache(),
