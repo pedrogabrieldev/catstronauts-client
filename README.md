@@ -7,4 +7,4 @@ O aplicativo busca uma lista de trilhas de aprendizagem em uma API GraphQL e as 
 
 O front end da aplcação foi desenvolvido com React, usando Reach Router para a criação das rotas e Emotion para estilização de componentes.
 
-Clique [aqui](catstronauts-client-theta.vercel.app) para visualizar o aplicativo.
+Clique [aqui](https://catstronauts-client-theta.vercel.app) para visualizar o aplicativo.
